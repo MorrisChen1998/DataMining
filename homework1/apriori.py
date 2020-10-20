@@ -14,7 +14,7 @@ count = records.sum() #count each item fq
 support = 0.005
 
 asscoMetric = 'confidence'
-threshold = 0.02
+threshold = 0.2
 
 #%%
 from mlxtend.frequent_patterns import apriori
