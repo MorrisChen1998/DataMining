@@ -33,5 +33,5 @@ printOutAnswer("classification",answer)
 
 #%%
 count = [0,0,0,0]
-for i in range(len(answer)):
-    count[answer[i]]+=1
+for i in range(len(train_data[:,-1])):
+    count[train_data[:,-1][i]]+=1
